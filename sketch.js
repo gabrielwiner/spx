@@ -21,7 +21,7 @@ var lines;
 function setup() {
   createCanvas(windowWidth, windowHeight);
   background(200, int(bkg), int(bkb));
-  lines = loadStrings("http://finance.google.com/finance/info?client=ig&q=TPE:TAIEX");
+  lines = loadStrings("https://finance.google.com/finance/info?client=ig&q=TPE:TAIEX");
   println("lines" + lines);
 }
 
